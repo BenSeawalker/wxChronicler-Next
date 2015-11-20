@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Source\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrame.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="MainApp.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="stdwx.cpp">
+      <Filter>Source\Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header">
+      <UniqueIdentifier>{9bf9e110-58e8-40bf-a31f-ccb9fdb672d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{6245035b-d3ed-4608-8488-ce511a93927d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{a4f969a7-3a71-4b56-a034-92ff044e85c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Scene">
+      <UniqueIdentifier>{7c7831c5-c7c9-4a31-ad5d-a23f3664b90f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Scene">
+      <UniqueIdentifier>{3063e1ff-8365-4d50-b22e-9f4d510259a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Main">
+      <UniqueIdentifier>{fc474112-45d1-4b4e-9479-670668a28ac7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header\Main">
+      <UniqueIdentifier>{0eb059db-8ba8-436b-a247-6223f43219ac}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="stdwx.h">
+      <Filter>Header\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MainApp.h">
+      <Filter>Header\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrame.h">
+      <Filter>Header\Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="weasel.bmp">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Chronicler-Next.rc" />
+  </ItemGroup>
+</Project>
